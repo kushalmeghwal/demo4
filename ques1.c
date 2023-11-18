@@ -13,9 +13,7 @@ int main()
     printf("enter choice\n ");
     scanf("%d",&c);
     switch(c) {
-    case 1: printf("mul = %d\n",mul);
-             break;
-    case 2: printf("div = %d\n",div);
+    case 1: printf("sub = %d\n",sub);
              break;
     return 0;
     }
