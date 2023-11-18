@@ -13,7 +13,9 @@ int main()
     printf("enter choice\n ");
     scanf("%d",&c);
     switch(c) {
-    case 1: printf("sum = %d\n",sum);
+    case 1: printf("mul = %d\n",mul);
+             break;
+    case 2: printf("div = %d\n",div);
              break;
     return 0;
     }
